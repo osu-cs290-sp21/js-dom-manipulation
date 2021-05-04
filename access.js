@@ -25,3 +25,16 @@ console.log("== photoCards2:", photoCards2)
 
 var images = document.getElementsByTagName('img')
 console.log("== images:", images)
+
+var rightNavItem = document.querySelector('.navitem.right')
+console.log("== rightNavItem:", rightNavItem)
+
+var navbarLinks = document.querySelectorAll('.navbar a')
+console.log("== navbarLinks:", navbarLinks)
+
+console.log("== secondPhotoCard.textContent:", secondPhotoCard.textContent)
+console.log("== secondPhotoCard.innerHTML:", secondPhotoCard.innerHTML)
+
+console.log("== navbarLinks[0].href:", navbarLinks[0].href)
+
+console.log("== images[0].src:", images[0].src)
